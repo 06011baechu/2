@@ -1,1 +1,22 @@
-# 2
+# 2package ch06;
+
+public class ex6_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Tv t1 = new Tv();
+		Tv t2 = new Tv();
+	    System.out.println("t1의 channel값은 "+ t1.channel+" 입니다");
+	    System.out.println("t1의 channel값은 "+ t2.channel+" 입니다");
+		
+		
+		t1.channel = 5;
+	    System.out.println("t1의 channel값을 5롤 변경하였습니다.");
+		
+		
+	    System.out.println("t1의 channel값은"+ t1.channel + " 입니다");
+	    System.out.println("t2의 channel값은"+ t2.channel + " 입니다");
+	}
+
+}
